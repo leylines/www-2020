@@ -1,0 +1,3 @@
+[submodule "downloads/jquery-flipster"]
+	path = downloads/jquery-flipster
+	url = https://github.com/drien/jquery-flipster.git
