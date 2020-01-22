@@ -9,17 +9,14 @@ https://www.tooplate.com/view/2116-blugoon
 @import url(fontawesome.css);
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 body {
-    font-family: 'Acme', sans-serif;
-	overflow-x: hidden;
+  font-family: 'Acme', sans-serif;
+  overflow-x: hidden;
 }
 
 #page-wraper {
-    background: #000 no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
+  background: #000 no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
 }
 
 /* Basic */
@@ -27,77 +24,80 @@ body {
 input,
 select,
 textarea {
-    outline: none;
+  outline: none;
 }
 
 a {
-	color: #9FF;
-    text-decoration: none;
+  color: #9FF;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #FF0;
-	text-decoration: none;
+  color: #FF0;
+  text-decoration: none;
 }
 
 p {
-	letter-spacing: 0.5px;
-    line-height: 2em;
-    color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 2em;
+  color: #fff;
 }
 
 h4 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #FFD700;
-    letter-spacing: 0.5px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFD700;
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFD700;
+  letter-spacing: 0.5px;
 }
 
 img {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .clearfix {
-    transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .top-header {
@@ -118,135 +118,135 @@ html {
 }
 
 .main-nav li a {
-    height: 4.0em;
-    line-height: 4.0em;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 700;
-    background: #444;
-    color: #fff;
-    width: 100%;
-    transition: all 0.5s;
-    border-top: 2px solid rgba(255, 215, 0, 0.4);
+  height: 4.0em;
+  line-height: 4.0em;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  background: linear-gradient(90deg, #666, #111);
+  color: #fff;
+  width: 100%;
+  transition: all 0.5s;
+  border-top: 2px solid rgba(255, 215, 0, 0.4);
 }
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    background: #000;
-    color: #FFD700;
+  background: linear-gradient(90deg, #FFD700, #000);
+  color: #FFD700;
 }
 
 /* Sidebar Menu */
 
 .menu .image img {
-    width: 100px;
-    height: 100px;
-    background-color: #000;
-    border-radius: 50%;
-    text-align: center;
-    margin: 10px 0;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .menu .author-content {
-    margin: 20px 0px 40px 0px;
+  margin: 20px 0px 40px 0px;
 }
 
 .menu .author-content h4 {
-    margin-bottom: 0px;
-	text-transform: uppercase;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 .menu .author-content span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .menu .social-network {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .menu .social-network ul li {
-    margin: 0 3px;
-    padding: 0px 8px;
+  margin: 0 3px;
+  padding: 0px 8px;
 }
 
 .menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    line-height: 43px;
-    background-color: #444;
-    color: #666;
-    font-size: 20px;
-    border-radius: 50%;
-    transition: 0.5s;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  background: linear-gradient(90deg, #666, #000);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: 0.5s;
 }
 
 .menu .social-network ul li a::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #FFD700;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
- }
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #FFD700;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
 
 .menu .social-network ul li a:hover::before {
-    transform: scale(1.2);
-    box-shadow: 0 0 15px #FFD700;
-    filter: blur(3px);
- }
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #FFD700;
+  filter: blur(3px);
+}
 
 .menu .social-network ul li a:hover {
-    color: #ffee10;
-    box-shadow: 0 0 15px #FFD700;
-    text-shadow: 0 0 15px #FFD700;
+  color: #ffee10;
+  box-shadow: 0 0 15px #FFD700;
+  text-shadow: 0 0 15px #FFD700;
 }
 
 .menu .copyright-text {
-    position: relative;
-    margin-top: 40px;
+  position: relative;
+  margin-top: 40px;
 }
 
 .menu .copyright-text p {
-    border-top: 2px solid rgba(255, 215, 0, 0.4);
-    display: inline-block;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    font-size: 13px;
+  border-top: 2px solid rgba(255, 215, 0, 0.4);
+  display: inline-block;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-size: 13px;
 }
 
 .menu:before,
 .menu:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .menu:after {
-    clear: both;
+  clear: both;
 }
 
 .menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .menu::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .menu {
   text-align: center;
-  left: 8%;
+  left: 6%;
+  right: 6%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #606060;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -261,7 +261,19 @@ html {
   width: 22%;
   will-change: transform;
   z-index: 9999 !important;
-  background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,215,0,1) 15%, rgba(0,0,0,1) 35%, rgba(192,192,192,1) 50%, rgba(0,0,0,1) 65%, rgba(255,215,0,1) 85%, rgba(0,0,0,1) 100%);
+
+  background: linear-gradient(90deg, #222, #949494);
+  background-size: 120% 100%;
+
+  animation: MenuAnimation 6s ease infinite;
+
+  @keyframes MenuAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+  /*background-image: linear-gradient(to right, #111 0%, #434343 100%);*/
 }
 
 .menu-toggle {
@@ -294,16 +306,16 @@ html {
 }
 
 #menu-close {
-    cursor: pointer;
-    text-align: right;
-    color: #FFD700;
-    background-color: #444;
-    width: 100%;
-    height: 66px;
-    text-align: center;
-    display: inline-block;
-    line-height: 66px;
-	font-size: 1.3em;
+  cursor: pointer;
+  text-align: right;
+  color: #FFD700;
+  background-color: #444;
+  width: 100%;
+  height: 66px;
+  text-align: center;
+  display: inline-block;
+  line-height: 66px;
+  font-size: 1.3em;
 }
 
 
@@ -477,7 +489,8 @@ button:hover {
 /* My Work */
 
 .flipster {
-  height: 600px;
+  width: 100%;
+  height: 100%;
   font-size: 15px;
 }
 .flipster__nav__link {
@@ -533,25 +546,31 @@ figure.snip1321 figcaption {
 figure.snip1321 h4 {
   margin-top: 15px;
   margin-bottom: 5px;
-  color: #FFD700;
 }
+
+figure.snip1321 h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
 figure.snip1321 span {
   font-size: 14px;
   font-style: italic;
+  margin: 0 15px 0;
   display: block;
   color: #fff;
 }
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #2279BD;
+  background-color: #fff;
   width: 40px;
   height: 40px;
   display: inline-block;
   text-align: center;
   line-height: 40px;
-  border-radius: 5px;
-  color: #fff;
+  border-radius: 50%;
+  color: #000;
 }
 figure.snip1321:after {
   background-color: #000;
@@ -598,44 +617,44 @@ figure.snip1321.hover:after {
 /* Contact */
 
 section.contact-me {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 #contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 50px;
-    width: 100%;
-    padding-left: 15px;
+  background-color: rgba(250,250,250,0.1);
+  border: 1px solid rgba(255,215,0,1);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 14px;
+  height: 50px;
+  width: 100%;
+  padding-left: 15px;
 }
 
 #contact input:focus {
-    outline: none;
-    box-shadow: none;
-	color: #fff;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
 }
 
 #contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
+  background-color: rgba(250,250,250,0.1);
+  border: 1px solid rgba(250,215,0,1);
+  border-radius: 0px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 14px;
+  height: 180px;
+  max-height: 220px;
+  line-height: 40px;
+  width: 100%;
+  padding-left: 15px;
 }
 
 #contact textarea:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 #contact {
@@ -643,16 +662,16 @@ section.contact-me {
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #FFF;
+  color: #FFD700;
   opacity: 0.6; /* Firefox */
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #FFF;
+  color: #FFD700;
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-  color: #FFF;
+  color: #FFD700;
 }
 
 @media screen and (max-width: 1680px) {

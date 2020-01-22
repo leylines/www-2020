@@ -28,6 +28,7 @@
     $("#carousel").flipster({
       style: 'carousel',
       spacing: -0.5,
+      start: 0,
       nav: true,
       buttons: true,
     });
