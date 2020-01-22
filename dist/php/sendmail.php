@@ -5,7 +5,6 @@ $email = trim($_POST['email']);
 $subject = trim($_POST['subject']);
 $message = trim($_POST['message']);
 
-
 if( isset($name) && isset($email) ) {
 
 	// Avoid Email Injection and Mail Form Script Hijacking
@@ -32,6 +31,5 @@ EOD;
 	// PHP email sender
 	mail($to, $sub, $body, $headers);
 }
-
 
 ?>
