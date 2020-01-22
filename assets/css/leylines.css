@@ -6,7 +6,7 @@ https://www.tooplate.com/view/2116-blugoon
 
 */
 
-@import url(fontawesome.css);
+@import url(fontawesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 body {
   font-family: 'Acme', sans-serif;
