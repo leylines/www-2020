@@ -133,7 +133,11 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
   background: linear-gradient(90deg, #FFD700, #000);
-  color: #FFD700;
+  color: #000;
+  text-shadow:  1px  1px 1px #fff,
+                1px -1px 1px #fff,
+                -1px  1px 1px #fff,
+                -1px -1px 1px #fff;
 }
 
 /* Sidebar Menu */
