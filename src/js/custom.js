@@ -116,22 +116,23 @@
     $(this).removeClass("hover");
   });
 
-  $effectin = "spaceInDown";
-  $effectout = "boingOutDown";
+  $effectin = "slideRight";
+  $effectout = "slideRightReturn";
 
   $('.front').mouseenter(function () {
-    $(this).removeClass('magictime ' + $effectin);
-    $(this).addClass('magictime ' + $effectout);
-    $('.back').removeClass('magictime ' + $effectout);
-    $('.back').addClass('magictime ' + $effectin);
+    $(this).removeClass('magictime ' + $effectout);
+    $(this).addClass('magictime ' + $effectin);
+    $('.back').removeClass('magictime spaceOutRight');
+    $('.back').addClass('magictime spaceInRight');
     $('.back').css('visibility', 'visible');
   });
 
   $('.back').mouseleave(function () {
-    $(this).removeClass('magictime ' + $effectin);
-    $(this).addClass('magictime ' + $effectout);
-    $('.front').removeClass('magictime ' + $effectout);
-    $('.front').addClass('magictime ' + $effectin);
+    $('.front').removeClass('magictime ' + $effectin);
+    $('.front').addClass('magictime ' + $effectout);
+    $(this).removeClass('magictime spaceInRight');
+    $(this).addClass('magictime spaceOutRight');
   });
+
 
 })(jQuery);
