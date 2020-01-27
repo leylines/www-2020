@@ -116,4 +116,22 @@
     $(this).removeClass("hover");
   });
 
+  $effectin = "spaceInDown";
+  $effectout = "boingOutDown";
+
+  $('.front').mouseenter(function () {
+    $(this).removeClass('magictime ' + $effectin);
+    $(this).addClass('magictime ' + $effectout);
+    $('.back').removeClass('magictime ' + $effectout);
+    $('.back').addClass('magictime ' + $effectin);
+    $('.back').css('visibility', 'visible');
+  });
+
+  $('.back').mouseleave(function () {
+    $(this).removeClass('magictime ' + $effectin);
+    $(this).addClass('magictime ' + $effectout);
+    $('.front').removeClass('magictime ' + $effectout);
+    $('.front').addClass('magictime ' + $effectin);
+  });
+
 })(jQuery);
