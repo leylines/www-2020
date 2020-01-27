@@ -60,7 +60,7 @@
 .profile-card .background-block .background {
   width:100%;
   vertical-align: top;
-  opacity: 0.9;
+  opacity: 1.0;
   filter: blur(0.5px);
   transform: scale(2.8);
 }
