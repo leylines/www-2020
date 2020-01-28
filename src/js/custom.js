@@ -118,7 +118,7 @@
 
   $effectin = "slideRight";
   $effectout = "slideRightReturn";
-
+/*
   $('.front').mouseenter(function () {
     $(this).removeClass('magictime ' + $effectout);
     $(this).addClass('magictime ' + $effectin);
@@ -133,6 +133,6 @@
     $(this).removeClass('magictime spaceInRight');
     $(this).addClass('magictime spaceOutRight');
   });
-
+*/
 
 })(jQuery);

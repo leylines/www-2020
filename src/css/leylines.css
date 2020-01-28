@@ -8,6 +8,11 @@ https://www.tooplate.com/view/2116-blugoon
 
 @import url(fontawesome.css);
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: 'Acme', sans-serif;
   overflow-x: hidden;
@@ -38,23 +43,32 @@ a:hover {
 }
 
 p {
-  letter-spacing: 0.5px;
-  line-height: 2em;
+  line-height: 1.8rem;
   color: #fff;
 }
 
-h4 {
-  font-size: 28px;
+h1 {
+  font-size: 1.8rem;
   font-weight: 700;
   color: #FFD700;
-  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFD700;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FFD700;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1.0rem;
   font-weight: 700;
   color: #FFD700;
-  letter-spacing: 0.5px;
 }
 
 img {
@@ -341,17 +355,11 @@ html {
     padding: 60px 0 40px 0;
 }
 
-.section-heading h2 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #FFD700;
-}
-
 .section-heading .line-dec {
     width: 1px;
     height: 3px;
     background-color: #FFD700;
-    margin: 20px 0;
+    margin: 0.4rem 0 1.2rem;
 }
 
 .section-heading .line-dec.active {
@@ -683,7 +691,6 @@ section.contact-me {
     }
 
     .section {
-        color: #fff;
         width: 65%;
         right: 5%;
         left: 30%;
