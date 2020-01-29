@@ -163,6 +163,12 @@ html {
   border-radius: 50%;
   text-align: center;
   margin: 20px 0;
+  animation: turner 4s infinite linear;
+}
+
+@keyframes turner{
+  from{  transform: rotateY(0deg)   }
+  to  {  transform: rotateY(360deg) }
 }
 
 .menu .author-content {
@@ -294,46 +300,45 @@ html {
   /*background-image: linear-gradient(to right, #111 0%, #434343 100%);*/
 }
 
-.menu-toggle {
-  color: #444;
-  cursor: pointer;
-  font-size: 25px;
-  position: fixed;
-  right: 25px;
-  top: 25px;
-}
-
 #menu-toggle {
-  z-index: 999;
+  background-color: #444;
   cursor: pointer;
   position: fixed;
   top: 0;
   left: 0;
-  color: #FFD700;
-  background-color: #444;
   width: 66px;
   height: 66px;
-  line-height: 66px;
-  text-align: center;
+}
+
+.menu-toggle {
   display: inline-block;
-  font-size: 1.3em;
+  z-index: 9999;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
 }
 
 .menu-close {
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 66px;
 }
 
 #menu-close {
-  cursor: pointer;
-  text-align: right;
-  color: #FFD700;
-  background-color: #444;
-  width: 100%;
-  height: 66px;
-  text-align: center;
   display: inline-block;
-  line-height: 66px;
-  font-size: 1.3em;
+  position: relative;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+
+.svg-content {
+  fill: #FFD700;
 }
 
 
@@ -414,36 +419,6 @@ button:hover {
     background-color: #FFD700;
     color: #000;
 }
-
-
-/* Left & Right Post */
-
-.left-image-post {
-    margin-bottom: 60px;
-    padding-bottom: 60px;
-}
-
-.right-image-post {
-    margin-bottom: 60px;
-    padding-bottom: 60px;
-}
-
-.right-image-post h4,
-.left-image-post h4 {
-    margin-top: 0px;
-}
-
-.right-image-post p,
-.left-image-post p {
-    margin-top: 20px;
-}
-
-.right-image-post .white-button,
-.left-image-post .white-button {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 
 /* Services */
 
@@ -707,22 +682,6 @@ section.contact-me {
     .menu {
         left: 0%;
     }
-
-    .right-image-post h4,
-    .left-image-post h4 {
-        margin-top: 0px;
-    }
-
-    .right-image-post p,
-    .left-image-post p {
-        margin-top: 15px;
-    }
-
-    .right-image-post .white-button,
-    .left-image-post .white-button {
-        margin-top: 25px;
-    }
-
 }
 
 .menu .container {
