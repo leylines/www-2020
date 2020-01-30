@@ -321,7 +321,7 @@ html {
   height: 26px;
 }
 
-.menu-close {
+#menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +329,7 @@ html {
   height: 66px;
 }
 
-#menu-close {
+.menu-close {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -701,9 +701,12 @@ section.contact-me {
 }  
 
 @media screen and (max-width: 845px) {        
-  #menu-toggle,
-  #menu-close {
+  #menu-toggle {
     display: inline-block;
+  }    
+
+  #menu-close {
+    display: flex;
   }    
 
   .menu {        
@@ -731,7 +734,6 @@ section.contact-me {
 
   .menu.open {
     display: inline-block;
-    -webkit-transform: translateX(0) !important;
     transform: translateX(0) !important;
   }
 
