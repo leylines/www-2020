@@ -34,18 +34,18 @@ textarea {
 }
 
 a {
-  color: #9FF;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #FF0;
-  text-decoration: none;
+  color: #FFD700;
+  text-decoration: underline;
 }
 
 p {
   line-height: 1.8rem;
-  color: #fff;
+  color: #FFF;
 }
 
 h1 {
