@@ -10,6 +10,7 @@ https://www.tooplate.com/view/2116-blugoon
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 
 html {
+  box-sizing: border-box;
   font-size: 100%;
 }
 
@@ -86,10 +87,6 @@ ul li {
   display: inline-block;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
@@ -117,6 +114,12 @@ html {
 .top-header {
   margin: 0;
   padding: 0;
+}
+
+.blockquote,
+.blockquote-footer p { 
+  margin: 2vw;
+  font-size: 1.0rem;
 }
 
 .main-nav {
@@ -313,7 +316,6 @@ html {
 .menu-toggle {
   display: inline-block;
   z-index: 9999;
-  cursor: pointer;
   position: fixed;
   top: 20px;
   left: 20px;
