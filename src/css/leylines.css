@@ -608,6 +608,27 @@ section.contact-me {
   border-bottom: none;
 }
 
+.form-group > label {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #a1a2a3;
+  transform-origin: 0 0;
+  transform: scale(1.4);
+  pointer-events: none;
+  position: relative;
+  z-index: 5;
+}
+
+.form-group > label {
+  transition: transform 0.4s;
+  transform-origin: 0 0;
+  transform: scale(1.4) translateY(20px);
+}
+
+.form-group.not-empty > label {
+  transform: none;
+}
+
 #contact input {
   background-color: rgba(250,250,250,0.1);
   border: 1px solid rgba(255,215,0,1);
@@ -643,10 +664,6 @@ section.contact-me {
 #contact textarea:focus {
   outline: none;
   box-shadow: none;
-}
-
-#contact {
-    text-align: center;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

@@ -116,23 +116,14 @@
     $(this).removeClass("hover");
   });
 
-  $effectin = "slideRight";
-  $effectout = "slideRightReturn";
-/*
-  $('.front').mouseenter(function () {
-    $(this).removeClass('magictime ' + $effectout);
-    $(this).addClass('magictime ' + $effectin);
-    $('.back').removeClass('magictime spaceOutRight');
-    $('.back').addClass('magictime spaceInRight');
-    $('.back').css('visibility', 'visible');
+  $('.form-group').each((i,e) => {
+    $('.form-control', e)
+    .focus( function () {
+      e.classList.add('not-empty');
+    })
+    .blur( function () {
+      this.value === '' ? e.classList.remove('not-empty') : null;
+    });
   });
-
-  $('.back').mouseleave(function () {
-    $('.front').removeClass('magictime ' + $effectin);
-    $('.front').addClass('magictime ' + $effectout);
-    $(this).removeClass('magictime spaceInRight');
-    $(this).addClass('magictime spaceOutRight');
-  });
-*/
 
 })(jQuery);
