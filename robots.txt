@@ -1,0 +1,5 @@
+# Allow all
+User-agent: *
+Allow: /
+
+Sitemap: https://w3.leylines.ch/sitemap.xml
