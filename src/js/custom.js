@@ -2,6 +2,8 @@
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
   var close = document.getElementById("menu-close");
+  var bird = document.querySelector(".button-bird");
+  var birdtext = document.querySelector(".button-bird__text");
 
   //according to loftblog tut
   $(".main-menu li:first").addClass("active");
@@ -114,6 +116,16 @@
 
   $(".hover").mouseleave(function() {
     $(this).removeClass("hover");
+  });
+
+  bird.addEventListener('click', function() {
+    bird.classList.toggle('active');
+
+    if(bird.classList.contains('active')){
+      birdtext.innerHTML = 'DONE';
+    } else {
+      birdtext.innerHTML = 'SEND';
+    }
   });
 
   $('.form-group').each((i,e) => {

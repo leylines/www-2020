@@ -380,48 +380,6 @@ ul li {
     }
 }
 
-/* Buttons */
-
-.white-button a {
-    border-radius: 8px;
-    display: inline-block;
-    padding: 12px 22px;
-    background-color: #444;
-    color: #FFD700;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-}
-
-.white-button a:hover {
-    background-color: #FFD700;
-    color: #000;
-}
-
-button {
-    border-radius: 8px;
-    display: inline-block;
-    padding: 12px 22px;
-    background-color: #444;
-    color: #FFD700;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-button:hover {
-    outline: none;
-    background-color: #FFD700;
-    color: #000;
-}
-
 /* Services */
 
 .my-services .col-md-6 {
