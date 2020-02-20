@@ -348,9 +348,9 @@ ul li {
 
 .section {
     color: #fff;
-    width: 55%;
+    width: 65%;
     right: 10%;
-    left: 35%;
+    left: 30%;
     position: relative;
     min-height: 100vh;
     padding-bottom: 60px;
@@ -682,12 +682,6 @@ section.contact-me {
 @media screen and (max-width: 1680px) {
     .menu {
         left: 4%;
-    }
-
-    .section {
-        width: 65%;
-        right: 5%;
-        left: 30%;
     }
 }
 
